@@ -138,6 +138,11 @@
 													<bool key="NSIsResizeable">YES</bool>
 													<bool key="NSIsEditable">YES</bool>
 													<reference key="NSTableView" ref="997124691"/>
+													<object class="NSSortDescriptor" key="NSSortDescriptorPrototype">
+														<string key="NSKey">personName</string>
+														<bool key="NSAscending">YES</bool>
+														<string key="NSSelector">caseInsensitiveCompare:</string>
+													</object>
 												</object>
 												<object class="NSTableColumn" id="393215329">
 													<double key="NSWidth">208</double>
@@ -521,9 +526,9 @@
 						<reference key="object" ref="568628114"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="218658395"/>
 							<reference ref="166618306"/>
 							<reference ref="239112889"/>
+							<reference ref="218658395"/>
 						</object>
 						<reference key="parent" ref="275939982"/>
 					</object>
@@ -666,6 +671,7 @@
 					<string>100032.IBPluginDependency</string>
 					<string>100033.IBPluginDependency</string>
 					<string>100034.IBPluginDependency</string>
+					<string>100035.IBPluginDependency</string>
 					<string>100044.IBNumberFormatterBehaviorMetadataKey</string>
 					<string>100044.IBNumberFormatterLocalizesFormatMetadataKey</string>
 					<string>100044.IBPluginDependency</string>
@@ -681,6 +687,7 @@
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1290,7 +1297,7 @@
 			<integer value="3000" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">../CocoaDocApp.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../RaiseMan.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 	</data>
 </archive>
